@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+header {
+  padding-block: 32px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: var(--text-md);
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+}
+
+#profile > div {
+  max-width: 384px;
+}
+
+#profile h1 {
+  color: var(--text-color-primary);
+  font: var(--text-lg);
+  margin-bottom: 8px;
+}
+
+#info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  gap: 16px;
+}
+
+#info li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
